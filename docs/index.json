@@ -1,0 +1,41 @@
+{
+    "format":  1,
+    "title":  {
+                  "en":  "Claude UI Index",
+                  "zh":  "Claude UI 插件索引"
+              },
+    "description":  {
+                        "en":  "Claude-style DSH skin and desktop companion.",
+                        "zh":  "Claude 风格 DSH 界面与桌宠。"
+                    },
+    "plugins":  [
+                    {
+                        "name":  "dsh-claude-ui",
+                        "title":  {
+                                      "en":  "Claude UI + ClaudePet",
+                                      "zh":  "Claude 界面 + 桌宠"
+                                  },
+                        "description":  {
+                                            "en":  "Unofficial Claude-style DSH skin with cream canvas, serif answers, Opus/Sonnet model labels, and the ClaudePet Windows desktop companion.",
+                                            "zh":  "非官方 Claude 风格 DSH 界面：米白画布、衬线回答、Opus/Sonnet 模型名，以及 Windows 上的 ClaudePet 桌宠。"
+                                        },
+                        "icon":  "icons/claude-ui.svg",
+                        "author":  "zxf10",
+                        "versions":  [
+                                         {
+                                             "version":  "1.2.0",
+                                             "publishTimestamp":  1795254746,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/Axsia516/dsh-claude-ui",
+                                                            "commit":  "80295d91b21d1488ef43724c172030e93e8c523c",
+                                                            "path":  "package"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.1-rc.1 \u003c0.3.0"
+                                                         }
+                                         }
+                                     ]
+                    }
+                ]
+}
