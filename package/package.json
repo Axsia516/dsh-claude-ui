@@ -1,0 +1,50 @@
+{
+  "name": "dsh-claude-ui",
+  "version": "1.2.0",
+  "type": "module",
+  "description": "Unofficial Claude-style interface for the DSH Web UI, with Claude's palette, typography, wording and model labels, plus the ClaudePet desktop companion that runs while this Windows bundle is enabled.",
+  "license": "MIT",
+  "author": "zxf10",
+  "icon": "./icon.svg",
+  "keywords": [
+    "dsh",
+    "dsh-bundle",
+    "dsh-plugin",
+    "claude",
+    "theme",
+    "desktop-pet"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-rc.1 <0.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "pet/**",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}

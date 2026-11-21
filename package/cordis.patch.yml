@@ -1,0 +1,4 @@
+# The Claude UI bundle: one Client row that paints the whole Web surface.
+- insert:
+    - id: claude-ui
+      name: 'dsh-claude-ui'

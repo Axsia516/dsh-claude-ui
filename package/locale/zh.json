@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Claude 界面 + 桌宠",
+    "description": "非官方 Claude 风格 DSH Web UI：米白画布、衬线回答、Claude 措辞、Opus/Sonnet 模型名，以及模型菜单里的 Claude 支持方标签。Windows 上插件启用期间会同时托管 ClaudePet 透明置顶桌宠，支持表情、拖拽、便签和音效；禁用插件即停止桌宠。桌宠是本地未签名可执行文件，会复制到 %LOCALAPPDATA%\\ClaudePet\\app，日志与心跳位于 %APPDATA%\\ClaudePet。模型名仅作展示，不改变请求路由。与 Anthropic、DeepSeek 均无隶属关系。",
+    "detail": "docs/DETAIL.zh.md"
+  }
+}

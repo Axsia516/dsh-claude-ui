@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Claude UI + ClaudePet",
+    "description": "Unofficial Claude-style skin for the DSH Web UI: cream canvas, serif answers, Claude wording, Opus/Sonnet model labels and a Claude provider label in model menus. On Windows the plugin also starts ClaudePet, a transparent always-on-top desktop companion with expressions, drag, notes and sounds; disabling the bundle stops the pet. The pet is a local unsigned executable copied to %LOCALAPPDATA%\\ClaudePet\\app, with logs and heartbeat under %APPDATA%\\ClaudePet. Model labels are presentation-only and do not change routing. Not affiliated with Anthropic or DeepSeek.",
+    "detail": "docs/DETAIL.md"
+  }
+}
